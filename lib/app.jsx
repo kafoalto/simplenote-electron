@@ -434,6 +434,7 @@ export const App = connect(
             closeDialog={this.props.actions.closeDialog}
             dialogs={this.props.appState.dialogs}
             isElectron={isElectron()}
+            isMacApp={isMacApp}
           />
         </div>
       );
